@@ -1,0 +1,54 @@
+# ==========================================
+# Ambienti Virtuali Python (VENV)
+# ==========================================
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================================
+# Cache e compilati Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==========================================
+# Testing & Copertura (Pytest)
+# ==========================================
+.pytest_cache/
+.coverage
+htmlcov/
+.cache
+
+# ==========================================
+# Configurazione IDE e Editor di codice
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================================
+# File multimediali / Input & Output pesanti
+# ==========================================
+# Ignora tutte le immagini caricate per i test locali nelle cartelle di esempio
+samples/input/*
+samples/output/*
+
+# Mantieni i file .gitkeep così Git traccia la struttura delle cartelle vuote
+!samples/input/.gitkeep
+!samples/output/.gitkeep
+
+# Ignora eventuali file di log o export EXIF temporanei
+*.log
+*.json
+
+# ==========================================
+# Sistema Operativo
+# ==========================================
+.DS_Store
+Thumbs.db
